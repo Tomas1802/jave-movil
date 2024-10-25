@@ -1,0 +1,16 @@
+{
+    "name": "jave-movil",
+    "icons": [
+        {
+            "src": "/img/menu.png",
+            "type": "image/png",
+            "sizes": "1024x1024",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": ".",
+    "short_name": "jave-movil",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
