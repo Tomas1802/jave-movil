@@ -1,16 +1,17 @@
 {
-    "name": "jave-movil",
+    "name": "Jave Movil",
     "icons": [
         {
-            "src": "/img/menu.png",
+            "src": "/menu.png",
             "type": "image/png",
             "sizes": "1024x1024",
             "purpose": "any maskable"
         }
     ],
     "start_url": ".",
-    "short_name": "jave-movil",
-    "display": "standalone",
+    "short_name": "Jave Movil",
+    "display": "fullscreen",
+    "orientation": "any",
     "theme_color": "#000000",
     "background_color": "#ffffff"
 }
