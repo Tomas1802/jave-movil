@@ -58,6 +58,25 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+@keyframes colorChange {
+  0% { color: #b09428; }   /* First color */
+  20% { color: #e7705b; }  /* Second color */
+  40% { color: #74a6cd; }  /* Third color */
+  60% { color: #489366; } 
+}
+
+@keyframes movePosition {
+  0% { right: 5%; }
+  33% { right: 15%; }
+  66% { right: 25%; }
+  100% { right: 15%; }
+}
+
+.animate-colorAndMove {
+  animation: colorChange 0.5s infinite, movePosition 5s steps(1, end) infinite; 
+  position: absolute;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
